@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>913,376</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>913,492</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Calculatesum_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -87,7 +87,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Calculatesum" sap:VirtualizedContainerService.HintSize="496,310" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Calculatesum" sap:VirtualizedContainerService.HintSize="496,427" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Double" Name="sum" />
     </Sequence.Variables>
@@ -104,6 +104,7 @@
         <InArgument x:TypeArguments="x:Double">[In_num1+In_num2]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;The sum is : &quot;+sum.ToString]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,117" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;The sum is : &quot;+sum.ToString]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;just printed the sum&quot;]" />
   </Sequence>
 </Activity>
